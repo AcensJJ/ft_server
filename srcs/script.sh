@@ -16,7 +16,6 @@ mysql -u root -e "FLUSH PRIVILEGES;"
 
 #           USER           #
 mysql -u root -e "CREATE USER '$USER_WORDPRESS'@'localhost' identified by '$PASSWORD';" 
-mysql -u root -e "CREATE DATABASE wordpress;" 
 mysql -u root -e "GRANT ALL PRIVILEGES ON wordpress.* TO '$USER_WORDPRESS'@'localhost';" 
 mysql -u root -e "FLUSH PRIVILEGES;"
 #---					---#
