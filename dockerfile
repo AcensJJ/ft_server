@@ -7,7 +7,7 @@ ENV USER_WORDPRESS 'jacens'
 
 #---  INSTALL CONF ---#
 RUN apt-get update &&\
-	apt-get install -y nginx wget procps psmisc debconf debconf-utils perl lsb-release gnupg unzip
+	apt-get install -y nginx wget procps psmisc debconf debconf-utils perl lsb-release gnupg unzip nano vim ssl-cert
 RUN DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends --no-install-suggests -y php php-cgi php-mysqli php-pear php-mbstring php-gettext libapache2-mod-php php-common php-phpseclib php-mysql
 
 #---  MYSQL PHPMYADMIN WP ---#
@@ -37,4 +37,3 @@ RUN chown -R www-data:www-data /var/www/html/wordpress
 EXPOSE 8080 80 3306 33060 443
 
 CMD ./script.sh
-# CMD sleep infinity & wait
