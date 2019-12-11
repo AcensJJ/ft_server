@@ -23,8 +23,7 @@ RUN apt-get install -y php-fpm
 RUN cd /tmp && rm * &&\
 	wget wordpress.org/latest.tar.gz &&\
 	tar xvf latest.tar.gz &&\
-	mv wordpress /var/www/html &&\
-	cd /var/www/html/wordpress
+	mv wordpress /var/www/html
 
 #---  Add srcs file  ---#
 ADD ./srcs/www.conf /etc/php/7.3/fpm/pool.d/
