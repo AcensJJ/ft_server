@@ -17,6 +17,8 @@
 # Default server configuration
 #
 server {
+	listen 80;
+	listen [::]:80;
 # SSL configuration
 #
 	listen 443 ssl default_server;
@@ -65,10 +67,4 @@ server {
 #location ~ /\.ht {
 #	deny all;
 #}
-}
-server {
-	listen 80;
-	listen [::]:80;
-
-	return 301 https://$host$request_uri;
 }
