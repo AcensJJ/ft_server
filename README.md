@@ -29,8 +29,16 @@ qui doit pouvoir être désactivable.
 
 # Commande
 
+create :
+
 docker build -t "name"
+
 docker run -d -p 80 "name"
-docker exec -it id
+
+docker exec -it $id
+
+rm :
+
+docker stop (docker -qs) && docker rm (docker -qs)
 
 documentation <a href="https://www.padok.fr/blog/docker-docker-compose-commandes-connaitre">docker</a>
