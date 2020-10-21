@@ -25,3 +25,12 @@ site.
 
 • Vous devrez aussi vous assurer que votre serveur tourne avec un index automatique
 qui doit pouvoir être désactivable.
+
+
+# Commande
+
+docker build -t "name"
+docker run -d -p 80 "name"
+docker exec -it id
+
+documentation <a href="https://www.padok.fr/blog/docker-docker-compose-commandes-connaitre">docker</a>
