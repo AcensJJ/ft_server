@@ -52,6 +52,6 @@ documentation : <a href="https://www.padok.fr/blog/docker-docker-compose-command
 
 ![image](https://user-images.githubusercontent.com/45235527/96755596-36011580-13d3-11eb-8f1f-3d0df5ca7782.png)
 
-![image](https://user-images.githubusercontent.com/45235527/96755623-3f8a7d80-13d3-11eb-9a5c-769cb24cec4d.png)
+![image](https://user-images.githubusercontent.com/45235527/96755726-5e890f80-13d3-11eb-9c6b-5ac803a7a5fc.png)
 
 ![image](https://user-images.githubusercontent.com/45235527/96755647-47e2b880-13d3-11eb-918f-e904e959f4f9.png)
