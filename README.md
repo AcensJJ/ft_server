@@ -41,4 +41,17 @@ rm :
 
 docker stop (docker -qs) && docker rm (docker -qs)
 
-documentation <a href="https://www.padok.fr/blog/docker-docker-compose-commandes-connaitre">docker</a>
+documentation : <a href="https://www.padok.fr/blog/docker-docker-compose-commandes-connaitre">docker</a>
+
+
+# Technologie use and learn
+
+![image](https://user-images.githubusercontent.com/45235527/96755415-fd613c00-13d2-11eb-9e80-ca852dbd7cac.png)
+
+![image](https://user-images.githubusercontent.com/45235527/96755516-1b2ea100-13d3-11eb-90a5-eef37dc45090.png)
+
+![image](https://user-images.githubusercontent.com/45235527/96755596-36011580-13d3-11eb-8f1f-3d0df5ca7782.png)
+
+![image](https://user-images.githubusercontent.com/45235527/96755623-3f8a7d80-13d3-11eb-9a5c-769cb24cec4d.png)
+
+![image](https://user-images.githubusercontent.com/45235527/96755647-47e2b880-13d3-11eb-918f-e904e959f4f9.png)
