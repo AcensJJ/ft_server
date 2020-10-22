@@ -15,33 +15,26 @@ l'installation d'un serveur web complet, a l'aide d'une technologie de déploiem
 • Vous devrez, dans un seul container Docker, mettre en place un serveur web avec
 Nginx. Le container devra tourner avec Debian Buster.
 
-• Votre serveur devra être capable de faire tourner plusieurs services en même temps.
+- Votre serveur devra être capable de faire tourner plusieurs services en même temps.
 Les services seront un Wordpress à installer par vous même, ainsi que Phpmyadmin
 et MySQL. Vous devrez vous assurer que votre base de donnée SQL fonctionne
 avec le wordpress et phpmyadmin.
-
-• Votre serveur devra pouvoir, quand c’est possible, utiliser le protocole SSL.
-
-• Vous devrez vous assurer que, selon l’url tapé, votre server redirige vers le bon
+- Votre serveur devra pouvoir, quand c’est possible, utiliser le protocole SSL.
+- Vous devrez vous assurer que, selon l’url tapé, votre server redirige vers le bon
 site.
-
-• Vous devrez aussi vous assurer que votre serveur tourne avec un index automatique
+- Vous devrez aussi vous assurer que votre serveur tourne avec un index automatique
 qui doit pouvoir être désactivable.
 
 
 # Commande
 
 create :
-
-docker build -t "name"
-
-docker run -d -p 80 "name"
-
-docker exec -it $id
+- docker build -t "name"
+- docker run -d -p 80 "name"
+- docker exec -it $id
 
 rm :
-
-docker stop (docker -qs) && docker rm (docker -qs)
+- docker stop (docker -qs) && docker rm (docker -qs)
 
 documentation : <a href="https://www.padok.fr/blog/docker-docker-compose-commandes-connaitre">docker</a>
 
