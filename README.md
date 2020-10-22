@@ -12,9 +12,8 @@ l'installation d'un serveur web complet, a l'aide d'une technologie de déploiem
 
 # Partie obligatoire
 
-• Vous devrez, dans un seul container Docker, mettre en place un serveur web avec
+- Vous devrez, dans un seul container Docker, mettre en place un serveur web avec
 Nginx. Le container devra tourner avec Debian Buster.
-
 - Votre serveur devra être capable de faire tourner plusieurs services en même temps.
 Les services seront un Wordpress à installer par vous même, ainsi que Phpmyadmin
 et MySQL. Vous devrez vous assurer que votre base de donnée SQL fonctionne
