@@ -2,7 +2,7 @@
 
 ![Screenshot 2020-10-21_19-05-33-326](https://user-images.githubusercontent.com/45235527/96754056-0d781c00-13d1-11eb-8784-218becc41a82.png)
 
-Description
+<strong>Description</strong>
 
 Ce sujet a pour but de vous initier aux bases de l’administration système et réseau. Il vous permettra de procéder à
 l'installation d'un serveur web complet, a l'aide d'une technologie de déploiement nommée Docker.
@@ -27,15 +27,15 @@ qui doit pouvoir être désactivable.
 
 # Commande
 
-create :
-- docker build -t "name"
-- docker run -d -p 80 "name"
-- docker exec -it $id
+> create :
+- `docker build -t "name"`
+- `docker run -d -p 80 "name"`
+- `docker exec -it $id`
 
-rm :
-- docker stop (docker -qs) && docker rm (docker -qs)
+> rm :
+- `docker stop (docker -qs) && docker rm (docker -qs)`
 
-documentation : <a href="https://www.padok.fr/blog/docker-docker-compose-commandes-connaitre">docker</a>
+documentation : <a href="https://www.padok.fr/blog/docker-docker-compose-commandes-connaitre">docker-compose commande</a>
 
 
 # Technologie use and learn
