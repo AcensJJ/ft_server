@@ -27,12 +27,12 @@ qui doit pouvoir être désactivable.
 
 # Commande
 
-> create :
+ create :
 - `docker build -t "name"`
 - `docker run -d -p 80 "name"`
 - `docker exec -it $id`
 
-> rm :
+ rm :
 - `docker stop (docker -qs) && docker rm (docker -qs)`
 
 documentation : <a href="https://www.padok.fr/blog/docker-docker-compose-commandes-connaitre">docker-compose commande</a>
