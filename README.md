@@ -28,7 +28,7 @@ qui doit pouvoir être désactivable.
 # Commande
 
  create :
-- `docker build -t "name"`
+- `docker build -t "name" .`
 - `docker run -d -p 80 "name"`
 - `docker exec -it $id` bash
 
