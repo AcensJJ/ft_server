@@ -27,8 +27,12 @@ qui doit pouvoir être désactivable.
 
 # Commande
 
+creating vm :
+- `docker-machine create "name"`
+- `docker-machine start "name"`
+- `eval "$(docker-machine env "name")"`
+
  create :
-- `docker build -t "name" .`
 - `docker run -d -p 80 "name"`
 - `docker exec -it $id` bash
 
