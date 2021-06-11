@@ -30,16 +30,26 @@ qui doit pouvoir être désactivable.
 # Commande
 
 creating vm :
-- `docker-machine create "name"`
-- `docker-machine start "name"`
-- `eval "$(docker-machine env "name")"`
+
+`docker-machine create <NAME>`
+
+`docker-machine start <NAME>`
+
+`eval "$(docker-machine env <NAME>)"`
 
  create :
-- `docker run -d -p 80 "name"`
-- `docker exec -it $id` bash
+ 
+ `docker build <IMAGE> -t <NAME>`
+ `docker run -d -p 80 <NAME>`
+ `docker exec -it $id bash`
+
+utils :
+
+`docker ps`
 
  rm :
-- `docker stop (docker -qs) && docker rm (docker -qs)`
+
+`docker stop (docker -qs) && docker rm (docker -qs)`
 
 documentation : <a href="https://www.padok.fr/blog/docker-docker-compose-commandes-connaitre">docker-compose commande</a>
 
