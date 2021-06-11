@@ -4,7 +4,7 @@
 
 <img alt="Note" src="https://user-images.githubusercontent.com/45235527/96753610-698e7080-13d0-11eb-9461-d3351c9208d7.png" width="250" height="200" />
 
-<strong>Description</strong>
+### <strong>Description</strong>
 
 Ce sujet a pour but de vous initier aux bases de l’administration système et réseau. Il vous permettra de procéder à
 l'installation d'un serveur web complet, a l'aide d'une technologie de déploiement nommée Docker.
@@ -29,7 +29,7 @@ qui doit pouvoir être désactivable.
 
 # Commande
 
-creating vm :
+### creating vm :
 
 `docker-machine create <NAME>`
 
@@ -37,17 +37,19 @@ creating vm :
 
 `eval "$(docker-machine env <NAME>)"`
 
- create :
+### create :
  
  `docker build <IMAGE> -t <NAME>`
- `docker run -d -p 80 <NAME>`
- `docker exec -it $id bash`
 
-utils :
+`docker run -d -p 80 <NAME>`
+
+`docker exec -it $id bash`
+
+### utils :
 
 `docker ps`
 
- rm :
+### rm :
 
 `docker stop (docker -qs) && docker rm (docker -qs)`
 
