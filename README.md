@@ -43,7 +43,7 @@ qui doit pouvoir être désactivable.
  
  `docker build <IMAGE> -t <NAME>`
 
-`docker run -d -p 80 <NAME>`
+`docker run -d -p 80:80 -p 443:443 <NAME>`
 
 `docker exec -it $id bash`
 
